@@ -1,10 +1,10 @@
     
     <?php
-        $host = "ec2-18-206-20-102.compute-1.amazonaws.com";
-        $database = "d1g7t5dsn08m8f";
-        $user = "eecafgmeuqpslr";
+        $host = "ec2-54-163-97-228.compute-1.amazonaws.com";
+        $database = "de779mnope0f1g";
+        $user = "tancbgpktfnncy";
         $port = "5432";
-        $password = "1b6ce985fe008d544128e13087c08243ed52e9ec5e66e9dc6785c94f66d8cbfa";
+        $password = "0526b0820a9d2ef684c1f86bf895e43be913f5b6933e71b7085d96003a2e9415";
 
         $connection_string = "host=".$host." dbname=".$database." user=".$user." port=".$port." password=".$password." sslmode=require";
         $connection = pg_connect($connection_string);
