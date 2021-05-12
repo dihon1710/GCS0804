@@ -44,8 +44,6 @@
             $product_query = 'INSERT INTO public."invoice"(customer_id, customer_name, invoice_id, invoice_date, invoice_product_id, invoice_quantity) VALUES
             (\''.$cusid.'\',\''.$cusname.'\',\''.$invoice_id.'\',\''.$invoice_date.'\',\''.$id_pro.'\', \''.$id_quan.'\')';
 
-            echo $product_query;
-
             if (pg_query($connection, $product_query)) {
                 echo '<p>SUCCESS: Record is added successfully. A new invoice is created</p>';
             }
