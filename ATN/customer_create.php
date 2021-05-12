@@ -29,7 +29,7 @@
             (\''.$cusid.'\',\''.$cusname.'\',\''.$dob.'\',\''.$add.'\',\''.$number.'\',\''.$email.'\')';
 
             if (pg_query($connection, $product_query)) {
-                echo '<p>SUCCESS: Record is added successfully. A new product is created</p>';
+                echo '<p>SUCCESS: Record is added successfully. A new customer is added</p>';
             }
             else {
                 echo '<p>ERROR: Could not execute query</p>';
