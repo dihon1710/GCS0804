@@ -20,10 +20,10 @@
             </ul>
         </div>  
     </div>
+
     <div data-role="header">
         <h2>LISTING</h2>
     </div>
-
     <div>
     <h3>Product Listing</h3>
     <table data-role="table" class="ui-responsive" style="border: 2px solid black">
