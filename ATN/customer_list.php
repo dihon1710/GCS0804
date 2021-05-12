@@ -18,7 +18,7 @@
 		?>
 		<tr>
 			<td><?php echo $row["id"];?></td>
-			<td><?php echo $row["pcustomer_name"];?></td>
+			<td><?php echo $row["customer_name"];?></td>
 			<td><?php echo $row["date_of_birth"];?></td>
 			<td><?php echo $row["address"];?></td>
 			<td><?php echo $row["telephone_number"];?></td>
