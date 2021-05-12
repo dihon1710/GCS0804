@@ -237,7 +237,7 @@
     </div> 
     <script>
         function addProductItem() {	
-			var newli = '<li>Product ID: <input style="display:inline-block;" name="invoice_productid[]" type="text" onfocusout="updateProductName(this.value)"> <label style="display:inline-block;"></label> Quantity: <input style="display:inline-block;" name=invoice_product_quantity[] type="text"> </li>';
+			var newli = '<li>Product ID: <input style="display:inline-block;" name="invoice_productid[]" type="text" onfocusout="updateProductName(this.value)"><label style="display:inline-block;"></label> Quantity: <input style="display:inline-block;" name=invoice_product_quantity[] type="text"> </li>';
 			$("ul.content-list").append(newli);
 			$("ul.content-list").listview("refresh");
 		};

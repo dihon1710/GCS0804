@@ -25,8 +25,8 @@
         else {
             echo "SUCCESS: Connection to Heroku Postgres has been established  ";
 
-            $product_query = 'INSERT INTO public."customer"(id, customer_name, date_of_birth, address, telephone_number, email) VALUES
-            (\''.$cusid.'\',\''.$cusname.'\',\''.$dob.'\',\''.$add.'\',\''.$number.'\',\''.$email.'\')';
+            $product_query = 'INSERT INTO public."customer"(id, customer_name, date_of_birth, address, telephone_number, email) 
+            VALUES (\''.$cusid.'\',\''.$cusname.'\',\''.$dob.'\',\''.$add.'\',\''.$number.'\',\''.$email.'\')';
 
             if (pg_query($connection, $product_query)) {
                 echo '<p>SUCCESS: Record is added successfully. A new customer is added</p>';
